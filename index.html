@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Second Project</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flower Market</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style/flower.css" />
 </head>
-<body>
-    <header>
-
-    </header>
-
-    <main>
-
-
-    </main>
-
-    <footer>
-
-        
-    </footer>
+<body class="font-sans bg-white text-gray-800">
+ 
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 flex justify-between items-center h-20">
+      <img src="assets/logo.png" alt="Logo" class="h-12" />
+      <ul class="hidden md:flex space-x-8 font-semibold text-gray-700">
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#plants">Shop</a></li>
+        <li><a href="#plant-lover">About</a></li>
+        <li><a href="#join">Join</a></li>
+        <li><a href="#" class="block w-6 h-6"><img src="assets/online-shopping.png" alt="Cart" /></a></li>
+      </ul>
+    </div>
+  </header>
+ 
+  <!-- Banner -->
+  <section id="banner" class="max-w-7xl mx-auto px-4 flex flex-wrap items-center gap-10 py-16">
+    <div class="flex-1">
+      <h1 class="text-5xl font-bold text-gray-900 leading-tight">ALWAYS FRESH</h1>
+      <h1 class="text-5xl font-bold text-orange-500 leading-tight">FLOWERS</h1>
+      <p class="text-lg mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+    </div>
+    <div class="flex-1">
+      <img src="assets/hero-flower.png" alt="Hero Flower" class="w-full max-w-md mx-auto" />
+    </div>
+  </section>
 </body>
 </html>
